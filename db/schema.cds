@@ -7,7 +7,7 @@ entity Products {
     stock: Integer;
     unit: String(5);
     price: Integer;
-    //newPrice: Integer;
+    newPrice: Integer;
     currency: String(5);
     virtual desc: String(20); 
     //virtual addStockEnabled: Boolean;
